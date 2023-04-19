@@ -1,0 +1,16 @@
+debug/blockdatasource.o
+debug/blockitem.o
+debug/blockmodel.o
+debug/constant.o
+debug/equation.o
+debug/equationsolver.o
+debug/main.o
+debug/variable.o
+debug/qrc_qml.o
+debug/moc_blockdatasource.o
+debug/moc_blockitem.o
+debug/moc_blockmodel.o
+debug/moc_constant.o
+debug/moc_equation.o
+debug/moc_equationsolver.o
+debug/moc_variable.o

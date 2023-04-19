@@ -38,10 +38,7 @@ HEADERS += \
     equationsolver.h \
     variable.h
 
-win32: LIBS += -L$$PWD/../libbuilds/z3/z3-z3-4.8.8-install/lib/ -llibz3
+win32: LIBS += -L$$PWD/../z3-4.8.8-x64-win/bin/ -llibz3
 
-INCLUDEPATH += $$PWD/../libbuilds/z3/z3-z3-4.8.8-install/include
-DEPENDPATH += $$PWD/../libbuilds/z3/z3-z3-4.8.8-install/include
-
-win32:!win32-g++: PRE_TARGETDEPS += $$PWD/../libbuilds/z3/z3-z3-4.8.8-install/lib/libz3.lib
-else:win32-g++: PRE_TARGETDEPS += $$PWD/../libbuilds/z3/z3-z3-4.8.8-install/lib/liblibz3.a
+INCLUDEPATH += $$PWD/../z3-4.8.8-x64-win/include
+DEPENDPATH += $$PWD/../z3-4.8.8-x64-win/include

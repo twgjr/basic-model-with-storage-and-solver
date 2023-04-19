@@ -1,0 +1,16 @@
+release/blockdatasource.o
+release/blockitem.o
+release/blockmodel.o
+release/constant.o
+release/equation.o
+release/equationsolver.o
+release/main.o
+release/variable.o
+release/qrc_qml.o
+release/moc_blockdatasource.o
+release/moc_blockitem.o
+release/moc_blockmodel.o
+release/moc_constant.o
+release/moc_equation.o
+release/moc_equationsolver.o
+release/moc_variable.o
