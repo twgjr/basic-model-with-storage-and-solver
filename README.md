@@ -1,4 +1,4 @@
-# basic-model-with-storage-and-solver
+# Equation Solver
 Symbolic equation solver using diagrams. Demo of work in progress desktop application.  Uses an external C++ library called Z3 to solve systems of equations.  Application is tested for 64-bit Windows.
 
 ## Installation
